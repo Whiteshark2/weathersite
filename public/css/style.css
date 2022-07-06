@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: aquamarine;
+    background-color: rgb(69, 239, 233);
 }
 h1{
     font-size: 3rem;
