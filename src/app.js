@@ -6,6 +6,7 @@ const forecast=require('./utils/forecast');
 
 
 const app=express();
+const port=process.env.PORT ||3000;
 
 const publicDirectory=path.join(__dirname,'../public');
 const templatepath=path.join(__dirname,'../template/views');
@@ -63,6 +64,6 @@ app.get('*',(req,res)=>{
     res.render('404')
 })
 
-app.listen(1100,()=>{
+app.listen(port,()=>{
     console.log("Server is running");
 })
