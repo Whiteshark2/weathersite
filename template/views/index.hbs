@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/images.png">
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <div class="main">
+    <h3>{{>header}}</h3>
+    <p>Use this website for Weather Info</p>
+    </div>
+    <form id="form">
+        <input type="text" placeholder="Location">
+        <button type="submit">Submit</button>
+    </form>
+    <div class="messagelist">
+        <p class="message"></p>
+        <p class="message"></p>
+    </div>
+    <h2>{{>footer}}</h1>    
+    <script src="/js/index.js"></script>
+</body>
+</html>
