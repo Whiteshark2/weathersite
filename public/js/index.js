@@ -4,7 +4,6 @@ const message=document.getElementsByClassName('message');
 weather.addEventListener('submit',(event)=>{
     event.preventDefault();
     const location=search.value;
-    console.log(location);
     fetch('/weather?address='+location).then((response)=>{
         response.json().then((data)=>{
             if(data.error){

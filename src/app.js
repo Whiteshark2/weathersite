@@ -27,13 +27,13 @@ app.get('',(req,res)=>{
 app.get('/about',(req,res)=>{
     console.log(req.query);
     res.render('about',{
-        fun:"funday"
+        fun:"About Me"
     });
 });
 
 app.get('/help',(req,res)=>{
     res.render('help',{
-        fun:"Sorry,No help for Now!"
+        fun:"HELP Section"
     });
 });
 
