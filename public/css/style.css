@@ -67,3 +67,10 @@ button{
 button:hover{
     background-color:rgb(46, 220, 214);
 }
+@media screen and (max-width:600px) {
+    body{
+        max-width:100%;
+        font-size:2rem;
+    }
+    
+}
